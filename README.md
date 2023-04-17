@@ -26,9 +26,4 @@
 ├── <b><i>templates</i></b><br>
 │   └── main<br>
 └── <b><i>venv</i></b><br>
-    ├── bin<br>
-    ├── include<br>
-    ├── lib<br>
-    ├── lib64 -> lib<br>
-    └── pyvenv.cfg<br>
 </div>
