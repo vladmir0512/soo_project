@@ -1,7 +1,7 @@
 # Система оценки мнений
 ## Структура проекта
 <div>
-├── <b>conf</b><br>
+├── <b style="color: black;">conf</b><br>
 │   ├── asgi.py<br>
 │   ├── __init__.py<br>
 │   ├── settings.py<br>
