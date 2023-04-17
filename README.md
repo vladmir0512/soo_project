@@ -58,3 +58,38 @@
     ```bash
     python manage.py runserver 0.0.0.0:5000
     ```
+
+
+***
+### Как спарсить посты? (*dev mode*)
+***
+1. Зайти на сервер.
+2. Перейти в директорию 'soo/'.
+3. Активировать виртуальное окружение:
+
+    ```bash
+    source venv/bin/activate
+    ```
+4. Открыть песочницу Django:
+
+    ```bash
+    python manage.py shell
+    ```
+
+5. Импортировать парсер:
+
+    ```python3
+    from main.views import Parcer as p
+    ```
+
+6. Создать экземпляр класса парсера:
+
+    ```python3
+    _ = p()
+    ```
+
+7. Вызвать у экземпляра класса функцию get_posts():
+
+    ```python3
+    _.get_posts()
+    ```
