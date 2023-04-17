@@ -1,13 +1,13 @@
 # Система оценки мнений
 ## Структура проекта
 <div>
-├── conf<br>
+├── <b>conf</b><br>
 │   ├── asgi.py<br>
 │   ├── __init__.py<br>
 │   ├── settings.py<br>
 │   ├── urls.py<br>
 │   └── wsgi.py<br>
-├── main<br>
+├── <b>main</b><br>
 │   ├── admin.py<br>
 │   ├── apps.py<br>
 │   ├── __init__.py<br>
@@ -19,13 +19,13 @@
 ├── manage.py<br>
 ├── README.md<br>
 ├── requirements.txt<br>
-├── static<br>
+├── <b>static</b><br>
 │   ├── css<br>
 │   ├── img<br>
 │   └── js<br>
-├── templates<br>
+├── <b>templates</b><br>
 │   └── main<br>
-└── venv<br>
+└── <b>venv</b><br>
     ├── bin<br>
     ├── include<br>
     ├── lib<br>
