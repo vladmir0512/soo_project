@@ -45,10 +45,14 @@
 1. Зайти на сервер.
 2. Перейти в директорию soo/.
 3. Активировать виртуальное окружение:
+
     ```bash
     source venv/bin/activate
     ```
+
 4. Запустить сайт:
+
     ```bash
     python manage.py runserver
     ```
+    
