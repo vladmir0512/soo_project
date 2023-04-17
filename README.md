@@ -1,7 +1,7 @@
 # Система оценки мнений
 
 
-├── conf
+├── conf<br>
 │   ├── asgi.py
 │   ├── __init__.py
 │   ├── __pycache__
