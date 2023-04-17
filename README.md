@@ -1,6 +1,6 @@
 # Система оценки мнений
 
-
+<div>
 ├── conf<br>
 │   ├── asgi.py
 │   ├── __init__.py
@@ -33,3 +33,4 @@
     ├── lib
     ├── lib64 -> lib
     └── pyvenv.cfg
+</div>
