@@ -17,19 +17,19 @@
 │   ├── tests.py<br>
 │   ├── urls.py<br>
 │   └── views.py<br>
-├── manage.py
-├── README.md
-├── requirements.txt
-├── static
-│   ├── css
-│   ├── img
-│   └── js
-├── templates
-│   └── main
-└── venv
-    ├── bin
-    ├── include
-    ├── lib
-    ├── lib64 -> lib
-    └── pyvenv.cfg
+├── manage.py<br>
+├── README.md<br>
+├── requirements.txt<br>
+├── static<br>
+│   ├── css<br>
+│   ├── img<br>
+│   └── js<br>
+├── templates<br>
+│   └── main<br>
+└── venv<br>
+    ├── bin<br>
+    ├── include<br>
+    ├── lib<br>
+    ├── lib64 -> lib<br>
+    └── pyvenv.cfg<br>
 </div>
