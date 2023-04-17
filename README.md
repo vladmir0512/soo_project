@@ -53,5 +53,5 @@
 4. Запустить сайт:
 
     ```bash
-    python manage.py runserver
+    python manage.py runserver 0.0.0.0:5000
     ```
