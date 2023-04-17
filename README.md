@@ -2,22 +2,20 @@
 
 <div>
 ├── conf<br>
-│   ├── asgi.py
-│   ├── __init__.py
-│   ├── __pycache__
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── main
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   ├── models.py
-│   ├── __pycache__
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
+│   ├── asgi.py<br>
+│   ├── __init__.py<br>
+│   ├── settings.py<br>
+│   ├── urls.py<br>
+│   └── wsgi.py<br>
+├── main<br>
+│   ├── admin.py<br>
+│   ├── apps.py<br>
+│   ├── __init__.py<br>
+│   ├── migrations<br>
+│   ├── models.py<br>
+│   ├── tests.py<br>
+│   ├── urls.py<br>
+│   └── views.py<br>
 ├── manage.py
 ├── README.md
 ├── requirements.txt
