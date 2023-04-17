@@ -7,7 +7,7 @@
 │   ├── settings.py<br>
 │   ├── urls.py<br>
 │   └── wsgi.py<br>
-├── <b>main</b><br>
+├── <b><i>main</i></b><br>
 │   ├── admin.py<br>
 │   ├── apps.py<br>
 │   ├── __init__.py<br>
@@ -19,13 +19,13 @@
 ├── manage.py<br>
 ├── README.md<br>
 ├── requirements.txt<br>
-├── <b>static</b><br>
+├── <b><i>static</i></b><br>
 │   ├── css<br>
 │   ├── img<br>
 │   └── js<br>
-├── <b>templates</b><br>
+├── <b><i>templates</i></b><br>
 │   └── main<br>
-└── <b>venv</b><br>
+└── <b><i>venv</i></b><br>
     ├── bin<br>
     ├── include<br>
     ├── lib<br>
