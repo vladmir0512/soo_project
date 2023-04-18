@@ -108,13 +108,13 @@
     git commit -m "update README.md"
     ```
 
-3.1 Если не уверен:
+3. Если не уверен:
 
     ```bash
     git push origin master
     ```
 
-3.2 Если уверен:
+    Если уверен:
 
     ```bash
     git push origin main
