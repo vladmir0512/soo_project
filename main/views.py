@@ -403,7 +403,7 @@ class Parcer:
 					continue
 		
 				if not comment_text:
-					print(f"Saddenly, no text in comment id {comment_id}skip...")
+					print(f"Saddenly, no text in comment id {comment_id} skip...")
 					continue
 				
 				try:
@@ -610,13 +610,13 @@ def getSameCommentId(id_comment : str):
 
 def addComment(id_comment : str ,id_post : models.Post, id_person : models.Person, comment: str, comment_date : int):
 	try:
-		pos = models.Post.objects.get_or_create(id_post=id_post)
+		pos = models.Post.objects.get(id_post=id_post)
 		if not pos[1]:
 			return pos[1]
 		else:
 			pos=pos[0]
 
-		per = models.Person.objects.get_or_create(id_person=id_person)
+		per = models.Person.objects.get(id_person=id_person)
 		if not per[1]:
 			return per[1]
 		else:

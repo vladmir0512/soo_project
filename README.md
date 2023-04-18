@@ -93,3 +93,33 @@
     ```python3
     _.get_posts()
     ```
+
+***
+### Как пушить изменения? 
+***
+
+1. 
+    ```bash
+    git add .
+    ```
+
+2. 
+    ```bash
+    git commit -m "update README.md"
+    ```
+
+3.1 Если не уверен:
+
+    ```bash
+    git push origin master
+    ```
+
+3.2 Если уверен:
+
+    ```bash
+    git push origin main
+    ```
+
+
+
+
