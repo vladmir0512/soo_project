@@ -67,18 +67,12 @@ class AboutPageView(TemplateView):
 class Parcer:
 
 	'''
- 	# Основной парсер
-		def __init__(self):
+ 	#### Основной парсер
+		group_id - id сообщества ВК
   
-			self.group_id = '26284064'
+		post_lim - сколько постов получить
   
-			self.post_lim = 20
-  
-			self.token = "698e97510f36f88ced18449a9aa25c9663b8e2eeb1f42a857c3c5c2a65be69d5d90b645e12313d090aad7"
-
-			self.session = vk_api.VkApi(token=self.token)
-
-			self.vk = self.session.get_api()
+		token - токен (рукопожатие для использования VK API)
   	'''
 
 	def __init__(self):
